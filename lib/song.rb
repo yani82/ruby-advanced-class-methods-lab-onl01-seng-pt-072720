@@ -17,12 +17,13 @@ class Song
   end 
   
   def self.new_by_name(title)
-    song = self.create 
+    song = self.new 
     song.name = title 
     song 
   end 
    
   def self.find_or_create_by_name(title) 
+    
   end
 
 end

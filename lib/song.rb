@@ -42,6 +42,6 @@ class Song
     end
   end 
   
-  class self.alphabetical()
+  def self.alphabetical()
 
 end

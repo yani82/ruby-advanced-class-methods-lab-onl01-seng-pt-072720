@@ -41,5 +41,7 @@ class Song
       self.create_by_name(title)
     end
   end 
+  
+  class self.alphabetical()
 
 end

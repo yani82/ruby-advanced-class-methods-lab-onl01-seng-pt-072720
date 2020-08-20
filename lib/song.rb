@@ -42,6 +42,9 @@ class Song
     end
   end 
   
-  def self.alphabetical()
+  def self.alphabetical
+    result = {Array.sort_by}
+    result
+  end 
 
 end
